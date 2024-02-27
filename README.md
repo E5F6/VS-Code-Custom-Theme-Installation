@@ -36,7 +36,7 @@ npm install -g yo code-generator
 Install `generator-code` globally using npm:
 
 ```bash
- npm install generator-code
+npm install generator-code
 ```
 
 ## 4. Generate a New Theme:
