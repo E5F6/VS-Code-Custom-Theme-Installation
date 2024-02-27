@@ -20,54 +20,67 @@ Before you begin, ensure you have the following installed on your system:
 Follow these steps to create and install your custom theme:
 
 ## 1. Open VS Code Terminal:
-   Open Visual Studio Code and launch the integrated terminal.
 
-## 2.  Install Yeoman Generator and Code Generator:
-   Install `yo` and `code-generator` globally using npm:
+Open Visual Studio Code and launch the integrated terminal.
 
-   ```bash
-   npm install -g yo code-generator
-   ```
+## 2. Install Yeoman Generator and Code Generator:
 
-## 3.  Install Generator Code:
-   Install `generator-code` globally using npm:
+Install `yo` and `code-generator` globally using npm:
 
-   ```bash
-    npm install generator-code
-   ```
+```bash
+npm install -g yo code-generator
+```
 
-## 4.  Generate a New Theme:
-   Run the `Yeoman generator` to create a new theme:
-   ```bash
-   yo code
-   ```
+## 3. Install Generator Code:
 
- Follow the prompts to provide details for your new theme, such as its name, description, and author. 
+Install `generator-code` globally using npm:
 
-## 5.  Create Your Custom Theme:
- Visit themes.vscode.one
+```bash
+ npm install generator-code
+```
+
+## 4. Generate a New Theme:
+
+Run the `Yeoman generator` to create a new theme:
+
+```bash
+yo code
+```
+
+Follow the prompts to provide details for your new theme, such as its name, description, and author.
+
+## 5. Create Your Custom Theme:
+
+Visit themes.vscode.one
 
 Visit [themes.vscode.one](https://themes.vscode.one) to create your custom theme online. Once done, download the theme JSON file.
 
-## 6.  Replace JSON File:
-   Replace the generated JSON file of your project with the downloaded theme JSON file.
+## 6. Replace JSON File:
 
-## 7.  Package the Extension:
-    Install `vsce` globally using npm:
-    ```bash
-    npm install -g vsce
-    ```
+Replace the generated JSON file of your project with the downloaded theme JSON file.
 
-## 8.  Package your extension by running:
-    ```bash
+## 7. Package the Extension:
+
+Install `vsce` globally using npm:
+
+```bash
+npm install -g vsce
+```
+
+## 8. Package your extension by running:
+
+```bash
     vsce package
-    ```
+```
 
-## 9.  Install the Extension:
-    Install the generated `.vsix` file using the following command:
-    ```bash
-    code --install-extension filename-0.0.1.vsix
-    ```
+## 9. Install the Extension:
 
-## 10.  Apply Your Custom Theme:
-    Open Visual Studio Code, go to settings, navigate to Color Theme, and select your custom theme to apply it.
+Install the generated `.vsix` file using the following command:
+
+```bash
+code --install-extension filename-0.0.1.vsix
+```
+
+## 10. Apply Your Custom Theme:
+
+Open Visual Studio Code, go to settings, navigate to Color Theme, and select your custom theme to apply it.
