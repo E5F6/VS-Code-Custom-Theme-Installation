@@ -70,7 +70,7 @@ npm install -g vsce
 ## 8. Package your extension by running:
 
 ```bash
-    vsce package
+vsce package
 ```
 
 ## 9. Install the Extension:
